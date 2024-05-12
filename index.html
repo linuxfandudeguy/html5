@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Fan Page</title>
+    <!-- Include Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" type="image/png"> <!-- Favicon -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Use Roboto font from Google Fonts */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('https://pixabay.com/get/g7cbef66e8ad2c2d18cff8216e1715d1fd60c7bad2911cac7103b87bdc4e3aa6e267bd92ed9ab7fadb49c03a213113ca45621031f671980224e9255acc8574d29_1280.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 600px;
+        }
+        .reddit-logo {
+            width: 150px; /* Adjust the size of the Reddit logo */
+            height: auto;
+        }
+        footer {
+            text-align: center; /* Center-align the text in the footer */
+            padding: 20px 0; /* Add padding to the top and bottom of the footer */
+            background-color: #f0f0f0; /* Add a light background color to the footer */
+        }
+        .html-tag {
+            font-weight: bold;
+            color: #007bff; /* Blue color for HTML tags */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the HTML5 Fan Page!</h1>
+    </header>
+    
+    <section id="about">
+        <h2>About HTML5</h2>
+        <p>HTML5 is the latest version of the Hypertext Markup Language, used to create and design content on the World Wide Web. It includes new elements and attributes that reflect the way web pages are structured and designed today, providing enhanced functionality and flexibility for developers.</p>
+    </section>
+    
+    <section id="pdf">
+        <h2>PDF</h2>
+        <iframe src="https://wtf.tw/ref/duckett.pdf" width="100%" height="600px"></iframe>
+    </section>
+    
+    <section id="other-info">
+        <h2>Other Info</h2>
+        <p>For more information about HTML, visit <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">this link</a>.</p>
+    </section>
+    
+    <section id="reviews">
+        <h2>Reviews on HTML</h2>
+        <iframe src="https://uncors.vercel.app/?url=https://www.quora.com/Webdevs-what-is-your-opinion-on-HTML" width="100%" height="600px"></iframe>
+    </section>
+
+    <section id="subreddit">
+        <h2>HTML5 Subreddit</h2>
+        <a href="https://www.reddit.com/r/html5/" target="_blank">
+            <img src="https://static.vecteezy.com/system/resources/previews/018/930/474/non_2x/reddit-logo-reddit-icon-transparent-free-png.png" alt="Reddit Logo" class="reddit-logo">
+        </a>
+    </section>
+    
+    <section id="compiler">
+        <h2>Compiler if you need to ;)</h2>
+        <iframe src="https://htmlcompilercode.netlify.app/" width="100%" height="600px"></iframe>
+    </section>
+
+    <section id="tutorial">
+        <h2>HTML Tutorial</h2>
+        <p>Explore the <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML tutorial</a> on W3Schools.</p>
+    </section>
+    
+    <section id="basics">
+        <h2>Basics to HTML5</h2>
+        <p>HTML (<code>HyperText Markup Language</code>) is the standard markup language for creating web pages. Here are some simple HTML tags commonly used in websites:</p>
+        <ul>
+            <li><code>&lt;p&gt;</code> - Defines a paragraph.</li>
+            <li><code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, ..., <code>&lt;h6&gt;</code> - Define headings of different sizes.</li>
+            <li><code>&lt;a&gt;</code> - Defines a hyperlink.</li>
+            <li><code>&lt;img&gt;</code> - Defines an image.</li>
+            <li><code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> - Define an unordered list and list items.</li>
+            <li><code>&lt;ol&gt;</code> and <code>&lt;li&gt;</code> - Define an ordered list and list items.</li>
+            <li><code>&lt;div&gt;</code> - Defines a division or a section in an HTML document.</li>
+            <li><code>&lt;span&gt;</code> - Defines a section in a document.</li>
+            <li><code>&lt;strong&gt;</code> - Defines text with strong importance.</li>
+            <li><code>&lt;em&gt;</code> - Defines emphasized text.</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>Thank you for visiting the HTML5 Fan Page!</p>
+    </footer>
+</body>
+</html>
